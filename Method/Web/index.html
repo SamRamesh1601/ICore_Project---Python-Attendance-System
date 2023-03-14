@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam OP</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #333;
+        }
+        li
+        {
+            margin: 0 8px;
+            width: 30px;
+            height: 5%;
+            animation: ani 2s alternate infinite;
+            background: #f06;
+            border-radius: 40px;
+            /* border: 1px solid #222; */
+            list-style: none;
+        }
+        @keyframes ani
+        {
+            100%
+            {
+                height: 35%;
+            }
+        }
+        li:nth-child(1)
+        {
+            animation-delay: 0.2s;
+        }
+        li:nth-child(2)
+        {
+            animation-delay: 0.4s;
+        }
+        li:nth-child(3)
+        {
+            animation-delay: 0.6s;
+        }
+        li:nth-child(4)
+        {
+            animation-delay: 0.8s;
+        }
+        li:nth-child(5)
+        {
+            animation-delay: 0.4s;
+        }
+        li:nth-child(6)
+        {
+            animation-delay: 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</body>
+</html>
